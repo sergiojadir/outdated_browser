@@ -1,3 +1,3 @@
-APP_NAME=Rails.application.class.module_parent.titleize.freeze
+APP_NAME=Rails.application.class.module_parent.name.titleize.freeze
 APP_MODULE=APP_NAME.parameterize.underscore.classify.constantize
 OUTDATED_BROWSER_ROUTES=APP_MODULE::Application.routes.url_helpers
